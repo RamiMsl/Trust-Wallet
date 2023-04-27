@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-28T00:20:33 TRT" name="Suite-Listeners" finished-at="2023-04-28T00:21:18 TRT" duration-ms="44866">
+    <groups>
+    </groups>
+    <test started-at="2023-04-28T00:20:33 TRT" name="Get Started" finished-at="2023-04-28T00:21:18 TRT" duration-ms="44866">
+      <class name="pages.register.CreateWallet">
+        <test-method signature="registerNewUser()[pri:1, instance:pages.register.CreateWallet@5403f35f]" started-at="2023-04-28T00:20:43 TRT" name="registerNewUser" finished-at="2023-04-28T00:20:46 TRT" duration-ms="3292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method signature="legalConsent()[pri:2, instance:pages.register.CreateWallet@5403f35f]" started-at="2023-04-28T00:20:46 TRT" name="legalConsent" finished-at="2023-04-28T00:20:49 TRT" duration-ms="2768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- legalConsent -->
+        <test-method signature="createPasscode()[pri:3, instance:pages.register.CreateWallet@5403f35f]" started-at="2023-04-28T00:20:49 TRT" name="createPasscode" finished-at="2023-04-28T00:20:52 TRT" duration-ms="3230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPasscode -->
+        <test-method signature="setWrongPasscode()[pri:4, instance:pages.register.CreateWallet@5403f35f]" started-at="2023-04-28T00:20:52 TRT" name="setWrongPasscode" finished-at="2023-04-28T00:20:55 TRT" duration-ms="3479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setWrongPasscode -->
+        <test-method signature="confirmPasscode()[pri:5, instance:pages.register.CreateWallet@5403f35f]" started-at="2023-04-28T00:20:55 TRT" name="confirmPasscode" finished-at="2023-04-28T00:21:01 TRT" duration-ms="5491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmPasscode -->
+      </class> <!-- pages.register.CreateWallet -->
+      <class name="pages.register.WalletBackUp">
+        <test-method signature="backUpConsent()[pri:1, instance:pages.register.WalletBackUp@483f6d77]" started-at="2023-04-28T00:21:01 TRT" name="backUpConsent" finished-at="2023-04-28T00:21:05 TRT" duration-ms="3794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backUpConsent -->
+        <test-method signature="saveBackUpPhrase()[pri:2, instance:pages.register.WalletBackUp@483f6d77]" started-at="2023-04-28T00:21:05 TRT" name="saveBackUpPhrase" finished-at="2023-04-28T00:21:18 TRT" duration-ms="12957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveBackUpPhrase -->
+      </class> <!-- pages.register.WalletBackUp -->
+    </test> <!-- Get Started -->
+  </suite> <!-- Suite-Listeners -->
+</testng-results>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="370.064" tests="20" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Work\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Beirut"/>
+    <property name="maven.conf" value="C:\Users\Work\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\bin\../conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\Users\Work\Desktop\DLDP1\pom.xml clean install test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Users\Work\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\bin\.."/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.10"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
+    <property name="user.name" value="DESKTOP-GJB5IH4$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="C:\Users\Work\.jenkins\workspace\LDP"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Work\.jenkins\workspace\LDP"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Work\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Work\AppData\Local\Android\Sdk\tools;C:\Users\Work\AppData\Local\Android\Sdk\platform-tools;C:\Users\Work\Desktop\DLDP1\chromedriver.exe;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
+    <property name="classworlds.conf" value="C:\Users\Work\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\bin\..\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Users\Work\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\bin\..\lib\jansi-native"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="RegisterNewUser" classname="pages.android.TellerVerification" time="10.021"/>
+  <testcase name="LogoutUser" classname="pages.android.TellerVerification" time="14.001"/>
+  <testcase name="VerifyCustomer" classname="pages.android.TellerVerification" time="59.761"/>
+  <testcase name="TellerTopup" classname="pages.android.TellerTopUpCashOut" time="25.15"/>
+  <testcase name="Tellercashout" classname="pages.android.TellerTopUpCashOut" time="24.149"/>
+  <testcase name="EnterCardDetails" classname="pages.android.AddMoney" time="29.123"/>
+  <testcase name="EnterAmount" classname="pages.android.AddMoney" time="3.049"/>
+  <testcase name="AddingMoney" classname="pages.android.AddMoney" time="17.04"/>
+  <testcase name="EnterCardDetails2" classname="pages.android.AddMoney" time="25.871"/>
+  <testcase name="EnterAmount2" classname="pages.android.AddMoney" time="1.48"/>
+  <testcase name="AddingMoney2" classname="pages.android.AddMoney" time="14.297"/>
+  <testcase name="EnterPhoneNumberManually" classname="pages.android.SendMoney" time="8.054"/>
+  <testcase name="EnterAmount" classname="pages.android.SendMoney" time="26.811"/>
+  <testcase name="PickPhoneNumber" classname="pages.android.SendMoney" time="7.669"/>
+  <testcase name="EnterAmount2" classname="pages.android.SendMoney" time="32.54"/>
+  <testcase name="ScanQR" classname="pages.android.MerchantPayment" time="4.139"/>
+  <testcase name="MerchantPayment" classname="pages.android.MerchantPayment" time="22.155"/>
+  <testcase name="ChangePINcode" classname="pages.android.MerchantPayment" time="12.903"/>
+  <testcase name="ChangeMobileNumber" classname="pages.android.MerchantPayment" time="11.843"/>
+  <testcase name="Deactivation" classname="pages.android.MerchantPayment" time="2.642">
+    <failure message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-GJB5IH4&apos;, ip: &apos;192.168.1.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\Work\Desktop\DLDP1..., appPackage: mobi.foo.ldpwallet, appWaitActivity: *, autoGrantPermissions: true, databaseEnabled: false, desired: {app: C:\Users\Work\Desktop\DLDP1..., appPackage: mobi.foo.ldpwallet, appWaitActivity: *, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 6200, platformName: android, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86_arm, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 6200, pixelRatio: 3.5, platform: LINUX, platformName: android, platformVersion: 11, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}&#10;Session ID: dbada9d1-090d-47e4-abf8-1824d276f38c" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GJB5IH4', ip: '192.168.1.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Work\Desktop\DLDP1..., appPackage: mobi.foo.ldpwallet, appWaitActivity: *, autoGrantPermissions: true, databaseEnabled: false, desired: {app: C:\Users\Work\Desktop\DLDP1..., appPackage: mobi.foo.ldpwallet, appWaitActivity: *, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 6200, platformName: android, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86_arm, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 6200, pixelRatio: 3.5, platform: LINUX, platformName: android, platformVersion: 11, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: dbada9d1-090d-47e4-abf8-1824d276f38c
+	at pages.android.MerchantPayment.Deactivation(MerchantPayment.java:68)
+</failure>
+  </testcase>
+</testsuite>

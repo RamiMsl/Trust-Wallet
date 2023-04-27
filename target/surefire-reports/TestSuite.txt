@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 370.064 s <<< FAILURE! - in TestSuite
+Deactivation(pages.android.MerchantPayment)  Time elapsed: 2.642 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GJB5IH4', ip: '192.168.1.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Work\Desktop\DLDP1..., appPackage: mobi.foo.ldpwallet, appWaitActivity: *, autoGrantPermissions: true, databaseEnabled: false, desired: {app: C:\Users\Work\Desktop\DLDP1..., appPackage: mobi.foo.ldpwallet, appWaitActivity: *, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 6200, platformName: android, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86_arm, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 6200, pixelRatio: 3.5, platform: LINUX, platformName: android, platformVersion: 11, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: dbada9d1-090d-47e4-abf8-1824d276f38c
+	at pages.android.MerchantPayment.Deactivation(MerchantPayment.java:68)
+
